@@ -7,3 +7,4 @@ launch: log_space
 	head ${TIME}.resorted.log | tee ${TIME}.summary
 	git add ${TIME}.summary
 	git commit -m ${TIME}
+	git push
